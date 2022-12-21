@@ -1,0 +1,8 @@
+testname,quizName,subject,fileName,output
+TC_001,Upload file TC_001,HỌC MÁY,0bytes.bin,The file '0bytes.bin' is either empty or a folder. To upload folders zip them first.
+TC_002,Upload file TC_002,HỌC MÁY,1bytes.bin,successful
+TC_003,Upload file TC_003,HỌC MÁY,2bytes.bin,successful
+TC_004,Upload file TC_004,HỌC MÁY,10MB.bin,successful
+TC_005,Upload file TC_005,HỌC MÁY,32MB-1B.bin,successful
+TC_006,Upload file TC_006,HỌC MÁY,32MB.bin,successful
+TC_007,Upload file TC_007,HỌC MÁY,32MB+1B.bin,Tệp được đăng tải có thể vượt quá chỉ dẫn post_max_size trong php.ini

@@ -1,0 +1,13 @@
+﻿testname,sort,filtering,output
+TC_001,Sort by dates,all,"Quiz 1 Kiểm tra phần mềm, Bài tập mở đầu, Quiz 1 Xử lý ảnh, Quiz 1 Học Máy, Quiz 2 Học Máy, Quiz 1 Xử lý ngôn ngữ tự nhiên, Assignment 1, Assignment 1"
+TC_002,Sort by courses,all,"Quiz 1 Học Máy, Quiz 2 Học Máy, Quiz 1 Kiểm tra phần mềm, Assignment 1, Bài tập mở đầu, Quiz 1 Xử lý ảnh, Quiz 1 Xử lý ngôn ngữ tự nhiên"
+TC_003,Sort by dates,overdue,"Quiz 1 Kiểm tra phần mềm, Bài tập mở đầu"
+TC_004,Sort by courses,overdue,"Quiz 1 Kiểm tra phần mềm, Bài tập mở đầu"
+TC_005,Sort by dates,next7days,"Quiz 1 Xử lý ảnh, Quiz 1 Học Máy, Quiz 2 Học Máy, Quiz 1 Xử lý ngôn ngữ tự nhiên"
+TC_006,Sort by courses,next7days,"Quiz 1 Học Máy, Quiz 2 Học Máy, Quiz 1 Xử lý ảnh, Quiz 1 Xử lý ngôn ngữ tự nhiên"
+TC_007,Sort by dates,next30days,"Quiz 1 Xử lý ảnh, Quiz 1 Học Máy, Quiz 2 Học Máy, Quiz 1 Xử lý ngôn ngữ tự nhiên, Assignment 1"
+TC_008,Sort by courses,next30days,"Quiz 1 Học Máy, Quiz 2 Học Máy, Quiz 1 Xử lý ảnh, Quiz 1 Xử lý ngôn ngữ tự nhiên, Assignment 1"
+TC_009,Sort by dates,next3months,"Quiz 1 Xử lý ảnh, Quiz 1 Học Máy, Quiz 2 Học Máy, Quiz 1 Xử lý ngôn ngữ tự nhiên, Assignment 1, Assignment 1"
+TC_010,Sort by courses,next3months,"Quiz 1 Học Máy, Quiz 2 Học Máy, Assignment 1, Quiz 1 Xử lý ảnh, Quiz 1 Xử lý ngôn ngữ tự nhiên"
+TC_011,Sort by dates,next6months,"Quiz 1 Xử lý ảnh, Quiz 1 Học Máy, Quiz 2 Học Máy, Quiz 1 Xử lý ngôn ngữ tự nhiên, Assignment 1, Assignment 1"
+TC_012,Sort by courses,next6months,"Quiz 1 Học Máy, Quiz 2 Học Máy, Assignment 1, Quiz 1 Xử lý ảnh, Quiz 1 Xử lý ngôn ngữ tự nhiên"

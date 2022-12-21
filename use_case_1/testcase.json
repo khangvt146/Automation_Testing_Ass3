@@ -1,0 +1,292 @@
+[
+    {
+        "input":
+        {
+            "name": "TC_001_1",
+            "sort": "Sort by course name",
+            "filter": "all",
+            "searchbar": "",
+            "view": "list",
+            "last_accessed": [],
+            "starred": [],
+            "inprogress": [],
+            "future": [],
+            "past": [],
+            "removed": [],
+            "sortTest": "",
+            "filterTest": ""
+        },
+
+        "output":
+        {
+            "default": ["HỌC MÁY", "HỌC MÁY_VIDEO", "KIỂM TRA PHẦN MỀM", "KIỂM TRA PHẦN MỀM_VIDEO", "XỬ LÝ ẢNH", 
+            "XỬ LÝ ẢNH_VIDEO", "XỬ LÝ NGÔN NGỮ TỰ NHIÊN", "XỬ LÝ NGÔN NGỮ TỰ NHIÊN_VIDEO", "ĐỒ ÁN CHUYÊN NGÀNH", 
+            "ĐỒ ÁN CHUYÊN NGÀNH_VIDEO"],
+            "test": []
+        }
+
+    },
+
+    {
+        "input":
+        {
+            "name": "TC_002_1",
+            "sort": "Sort by last accessed",
+            "filter": "all",
+            "searchbar": "",
+            "view": "list",
+            "last_accessed": ["XỬ LÝ NGÔN NGỮ TỰ NHIÊN_VIDEO", "HỌC MÁY", "KIỂM TRA PHẦN MỀM_VIDEO", "XỬ LÝ ẢNH",
+               "HỌC MÁY_VIDEO", "KIỂM TRA PHẦN MỀM", "ĐỒ ÁN CHUYÊN NGÀNH_VIDEO", "XỬ LÝ ẢNH_VIDEO",
+               "XỬ LÝ NGÔN NGỮ TỰ NHIÊN", "ĐỒ ÁN CHUYÊN NGÀNH"],
+            "starred": [],
+            "inprogress": [],
+            "future": [],
+            "past": [],
+            "removed": [],
+            "sortTest": "Sort by courses name",
+            "filterTest": ""
+        },
+
+        "output":
+        {
+            "default": ["XỬ LÝ NGÔN NGỮ TỰ NHIÊN_VIDEO", "HỌC MÁY", "KIỂM TRA PHẦN MỀM_VIDEO", "XỬ LÝ ẢNH",
+               "HỌC MÁY_VIDEO", "KIỂM TRA PHẦN MỀM", "ĐỒ ÁN CHUYÊN NGÀNH_VIDEO", "XỬ LÝ ẢNH_VIDEO",
+               "XỬ LÝ NGÔN NGỮ TỰ NHIÊN", "ĐỒ ÁN CHUYÊN NGÀNH"],
+
+            "test": ["HỌC MÁY", "HỌC MÁY_VIDEO", "KIỂM TRA PHẦN MỀM", "KIỂM TRA PHẦN MỀM_VIDEO", 
+            "XỬ LÝ ẢNH", "XỬ LÝ ẢNH_VIDEO", "XỬ LÝ NGÔN NGỮ TỰ NHIÊN", "XỬ LÝ NGÔN NGỮ TỰ NHIÊN_VIDEO", 
+            "ĐỒ ÁN CHUYÊN NGÀNH", "ĐỒ ÁN CHUYÊN NGÀNH_VIDEO"]
+        }
+    },
+
+    {
+        "input":
+        {
+            "name": "TC_002_2",
+            "sort": "Sort by course name",
+            "filter": "all",
+            "searchbar": "",
+            "view": "list",
+            "last_accessed": ["XỬ LÝ NGÔN NGỮ TỰ NHIÊN_VIDEO", "HỌC MÁY", "KIỂM TRA PHẦN MỀM_VIDEO", "XỬ LÝ ẢNH",
+               "HỌC MÁY_VIDEO", "KIỂM TRA PHẦN MỀM", "ĐỒ ÁN CHUYÊN NGÀNH_VIDEO", "XỬ LÝ ẢNH_VIDEO",
+               "XỬ LÝ NGÔN NGỮ TỰ NHIÊN", "ĐỒ ÁN CHUYÊN NGÀNH"],
+            "starred": [],
+            "inprogress": [],
+            "future": [],
+            "past": [],
+            "removed": [],
+            "sortTest": "Sort by last accessed",
+            "filterTest": ""
+        },
+
+        "output":
+        {
+            "default": ["HỌC MÁY", "HỌC MÁY_VIDEO", "KIỂM TRA PHẦN MỀM", "KIỂM TRA PHẦN MỀM_VIDEO", 
+            "XỬ LÝ ẢNH", "XỬ LÝ ẢNH_VIDEO", "XỬ LÝ NGÔN NGỮ TỰ NHIÊN", "XỬ LÝ NGÔN NGỮ TỰ NHIÊN_VIDEO", 
+            "ĐỒ ÁN CHUYÊN NGÀNH", "ĐỒ ÁN CHUYÊN NGÀNH_VIDEO"],
+
+            "test": ["XỬ LÝ NGÔN NGỮ TỰ NHIÊN_VIDEO", "HỌC MÁY", "KIỂM TRA PHẦN MỀM_VIDEO", "XỬ LÝ ẢNH",
+               "HỌC MÁY_VIDEO", "KIỂM TRA PHẦN MỀM", "ĐỒ ÁN CHUYÊN NGÀNH_VIDEO", "XỬ LÝ ẢNH_VIDEO",
+               "XỬ LÝ NGÔN NGỮ TỰ NHIÊN", "ĐỒ ÁN CHUYÊN NGÀNH"]
+        }
+    },
+
+    {
+        "input":
+        {
+            "name": "TC_003_1",
+            "sort": "Sort by course name",
+            "filter": "favourites",
+            "searchbar": "",
+            "view": "list",
+            "last_accessed": [],
+            "starred": [],
+            "inprogress": [],
+            "future": [],
+            "past": [],
+            "removed": [],
+            "sortTest": "",
+            "filterTest": "all"
+        },
+
+        "output":
+        {
+            "default": [],
+
+            "test": ["HỌC MÁY", "HỌC MÁY_VIDEO", "KIỂM TRA PHẦN MỀM", "KIỂM TRA PHẦN MỀM_VIDEO", 
+            "XỬ LÝ ẢNH", "XỬ LÝ ẢNH_VIDEO", "XỬ LÝ NGÔN NGỮ TỰ NHIÊN", "XỬ LÝ NGÔN NGỮ TỰ NHIÊN_VIDEO", 
+            "ĐỒ ÁN CHUYÊN NGÀNH", "ĐỒ ÁN CHUYÊN NGÀNH_VIDEO"]
+        }
+    },
+
+    {
+        "input":
+        {
+            "name": "TC_003_2",
+            "sort": "Sort by course name",
+            "filter": "all",
+            "searchbar": "",
+            "view": "list",
+            "last_accessed": [],
+            "starred": [],
+            "inprogress": ["KIỂM TRA PHẦN MỀM", "KIỂM TRA PHẦN MỀM_VIDEO", "XỬ LÝ ẢNH", "XỬ LÝ ẢNH_VIDEO"],
+            "future": [],
+            "past": [],
+            "removed": [],
+            "sortTest": "",
+            "filterTest": "inprogress"
+        },
+
+        "output":
+        {
+            "default": ["HỌC MÁY", "HỌC MÁY_VIDEO", "KIỂM TRA PHẦN MỀM", "KIỂM TRA PHẦN MỀM_VIDEO", 
+            "XỬ LÝ ẢNH", "XỬ LÝ ẢNH_VIDEO", "XỬ LÝ NGÔN NGỮ TỰ NHIÊN", "XỬ LÝ NGÔN NGỮ TỰ NHIÊN_VIDEO", 
+            "ĐỒ ÁN CHUYÊN NGÀNH", "ĐỒ ÁN CHUYÊN NGÀNH_VIDEO"],
+
+            "test": ["KIỂM TRA PHẦN MỀM", "KIỂM TRA PHẦN MỀM_VIDEO", "XỬ LÝ ẢNH", "XỬ LÝ ẢNH_VIDEO"]
+        }
+    },
+
+    {
+        "input":
+        {
+            "name": "TC_003_3",
+            "sort": "Sort by course name",
+            "filter": "all",
+            "searchbar": "",
+            "view": "list",
+            "last_accessed": [],
+            "starred": [],
+            "inprogress": [],
+            "future": ["XỬ LÝ NGÔN NGỮ TỰ NHIÊN", "XỬ LÝ NGÔN NGỮ TỰ NHIÊN_VIDEO", 
+            "ĐỒ ÁN CHUYÊN NGÀNH", "ĐỒ ÁN CHUYÊN NGÀNH_VIDEO"],
+            "past": [],
+            "removed": [],
+            "sortTest": "",
+            "filterTest": "future"
+        },
+
+        "output":
+        {
+            "default": ["HỌC MÁY", "HỌC MÁY_VIDEO", "KIỂM TRA PHẦN MỀM", "KIỂM TRA PHẦN MỀM_VIDEO", 
+            "XỬ LÝ ẢNH", "XỬ LÝ ẢNH_VIDEO", "XỬ LÝ NGÔN NGỮ TỰ NHIÊN", "XỬ LÝ NGÔN NGỮ TỰ NHIÊN_VIDEO", 
+            "ĐỒ ÁN CHUYÊN NGÀNH", "ĐỒ ÁN CHUYÊN NGÀNH_VIDEO"],
+
+            "test": ["XỬ LÝ NGÔN NGỮ TỰ NHIÊN", "XỬ LÝ NGÔN NGỮ TỰ NHIÊN_VIDEO", "ĐỒ ÁN CHUYÊN NGÀNH", "ĐỒ ÁN CHUYÊN NGÀNH_VIDEO"]
+        }
+    },
+
+    {
+        "input":
+        {
+            "name": "TC_003_4",
+            "sort": "Sort by course name",
+            "filter": "all",
+            "searchbar": "",
+            "view": "list",
+            "last_accessed": [],
+            "starred": [],
+            "inprogress": [],
+            "future": [],
+            "past": ["HỌC MÁY", "HỌC MÁY_VIDEO"],
+            "removed": [],
+            "sortTest": "",
+            "filterTest": "past"
+        },
+
+        "output":
+        {
+            "default": ["HỌC MÁY", "HỌC MÁY_VIDEO", "KIỂM TRA PHẦN MỀM", "KIỂM TRA PHẦN MỀM_VIDEO", 
+            "XỬ LÝ ẢNH", "XỬ LÝ ẢNH_VIDEO", "XỬ LÝ NGÔN NGỮ TỰ NHIÊN", "XỬ LÝ NGÔN NGỮ TỰ NHIÊN_VIDEO", 
+            "ĐỒ ÁN CHUYÊN NGÀNH", "ĐỒ ÁN CHUYÊN NGÀNH_VIDEO"],
+
+            "test": ["HỌC MÁY", "HỌC MÁY_VIDEO"]
+        }
+    },
+
+    {
+        "input":
+        {
+            "name": "TC_003_5",
+            "sort": "Sort by course name",
+            "filter": "all",
+            "searchbar": "",
+            "view": "list",
+            "last_accessed": [],
+            "starred": ["HỌC MÁY", "HỌC MÁY_VIDEO", "KIỂM TRA PHẦN MỀM", "ĐỒ ÁN CHUYÊN NGÀNH"],
+            "inprogress": [],
+            "future": [],
+            "past": [],
+            "removed": [],
+            "sortTest": "",
+            "filterTest": "favourites"
+        },
+
+        "output":
+        {
+            "default": ["HỌC MÁY", "HỌC MÁY_VIDEO", "KIỂM TRA PHẦN MỀM", "KIỂM TRA PHẦN MỀM_VIDEO", 
+            "XỬ LÝ ẢNH", "XỬ LÝ ẢNH_VIDEO", "XỬ LÝ NGÔN NGỮ TỰ NHIÊN", "XỬ LÝ NGÔN NGỮ TỰ NHIÊN_VIDEO", 
+            "ĐỒ ÁN CHUYÊN NGÀNH", "ĐỒ ÁN CHUYÊN NGÀNH_VIDEO"],
+
+            "test": ["HỌC MÁY", "HỌC MÁY_VIDEO", "KIỂM TRA PHẦN MỀM", "ĐỒ ÁN CHUYÊN NGÀNH"]
+        }
+    },
+
+    {
+        "input":
+        {
+            "name": "TC_003_6",
+            "sort": "Sort by course name",
+            "filter": "all",
+            "searchbar": "",
+            "view": "list",
+            "last_accessed": [],
+            "starred": [],
+            "inprogress": [],
+            "future": [],
+            "past": [],
+            "removed": ["XỬ LÝ ẢNH_VIDEO", "HỌC MÁY_VIDEO", "ĐỒ ÁN CHUYÊN NGÀNH_VIDEO"],
+            "sortTest": "",
+            "filterTest": "hidden"
+        },
+
+        "output":
+        {
+            "default": ["HỌC MÁY", "HỌC MÁY_VIDEO", "KIỂM TRA PHẦN MỀM", "KIỂM TRA PHẦN MỀM_VIDEO", 
+            "XỬ LÝ ẢNH", "XỬ LÝ ẢNH_VIDEO", "XỬ LÝ NGÔN NGỮ TỰ NHIÊN", "XỬ LÝ NGÔN NGỮ TỰ NHIÊN_VIDEO", 
+            "ĐỒ ÁN CHUYÊN NGÀNH", "ĐỒ ÁN CHUYÊN NGÀNH_VIDEO"],
+
+            "test": ["XỬ LÝ ẢNH_VIDEO", "HỌC MÁY_VIDEO", "ĐỒ ÁN CHUYÊN NGÀNH_VIDEO"]
+        }
+    },
+
+    {
+        "input":
+        {
+            "name": "TC_004_1",
+            "sort": "Sort by course name",
+            "filter": "all",
+            "searchbar": "ĐỒ",
+            "view": "list",
+            "last_accessed": [],
+            "starred": [],
+            "inprogress": [],
+            "future": [],
+            "past": [],
+            "removed": [],
+            "sortTest": "",
+            "filterTest": ""
+        },
+
+        "output":
+        {
+            "default": ["HỌC MÁY", "HỌC MÁY_VIDEO", "KIỂM TRA PHẦN MỀM", "KIỂM TRA PHẦN MỀM_VIDEO", 
+            "XỬ LÝ ẢNH", "XỬ LÝ ẢNH_VIDEO", "XỬ LÝ NGÔN NGỮ TỰ NHIÊN", "XỬ LÝ NGÔN NGỮ TỰ NHIÊN_VIDEO", 
+            "ĐỒ ÁN CHUYÊN NGÀNH", "ĐỒ ÁN CHUYÊN NGÀNH_VIDEO"],
+
+            "test": ["ĐỒ ÁN CHUYÊN NGÀNH", "ĐỒ ÁN CHUYÊN NGÀNH_VIDEO"]
+        }
+    }
+
+    
+]
